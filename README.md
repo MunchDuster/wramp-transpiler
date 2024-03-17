@@ -1,4 +1,4 @@
-# wramp-transpiler
+# [unofficial] wramp-transpiler
 "Transpiles" named-register-wramp files (.sname) to wramp source code files (.s)
 
 <h3>I'm not using windows, how do I use it?</h3>
