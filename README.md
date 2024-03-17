@@ -11,6 +11,7 @@ from the command line: .\unofficial_wramp_transpiler inputSNameFile
 <h3>What is a named-register-wramp file?</h3>
 Its a wramp source file (.s) file but instead of using $X for registers you can name them so that its easier to keep track of.
 They have the .sname file extenion.
+Yes I made them up.
 
 <h4>example.sname</h4>
 
