@@ -14,7 +14,7 @@ They have the .sname file extenion.
 
 <h4>Example .sname file:</h4>
 ```
-\#this program runs a loop which adds to a total
+#this program runs a loop which adds to a total
 .text
 register counter 4
 register total 5
@@ -22,16 +22,16 @@ register condition 6
 register iterations 10
 
 main:
-    \#initialize loop vars
+    #initialize loop vars
     addi counter, $0, 0
     addi total, $0, 0 
 loop:
-    \#check condition
+    #check condition
     slt condition, counter, iterations
     beqz condition, loop_end
 
     addi counter, counter, 1
     add total, total, counter
 loop_end:
-    \#do stuff here with total
+    #do stuff here with total
 ```
