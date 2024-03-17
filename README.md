@@ -65,4 +65,5 @@ loop_end:
 - [ ] make the exe file have a shorter name
 - [ ] add default names for registers like $0, $sp, etc
 - [ ] remove double-empty lines after removing register declaration lines
+- [ ] support for files with spaces in them (via clamp CLI library)
 - [ ] solve world hunger
