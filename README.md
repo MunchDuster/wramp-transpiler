@@ -56,6 +56,10 @@ loop_end:
     #do stuff here with $5
 ```
 <h4>Todo list</h4>
+
+- [x] register names are removed in output when transpiling
+- [x] register names are replaced with $num where used
+- [x] built exe can be called from command line
 - [ ] ignore comments when replacing uses of register names
 - [ ] make the exe file have a shorter name
 - [ ] add default names for registers like $0, $sp, etc
