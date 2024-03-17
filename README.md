@@ -13,8 +13,8 @@ Its a wramp source file (.s) file but instead of using $X for registers you can 
 They have the .sname file extenion.
 
 <h4>Example .sname file:</h4>
-<code>
-# this program runs a loop which adds to a total
+```
+#this program runs a loop which adds to a total
 .text
 register counter 4
 register total 5
@@ -34,5 +34,4 @@ loop:
     add total, total, counter
 loop_end:
     #do stuff here with total
-  
-</code>
+```
