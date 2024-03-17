@@ -48,7 +48,7 @@ main:
     addi $5, $0, 0 
 loop:
     #check $6
-    slt $6, $4, 10
+    slti $6, $4, 10
     beqz $6, loop_end
 
     addi $4, $4, 1
