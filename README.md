@@ -14,6 +14,7 @@ They have the .sname file extenion.
 
 <h4>Example .sname file:</h4>
 ```
+
 #this program runs a loop which adds to a total
 .text
 register counter 4
